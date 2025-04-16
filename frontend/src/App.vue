@@ -1,6 +1,6 @@
 <template>
 
-  <nav>
+  <nav class="main-nav">
       <RouterLink to="/mew/login"/>
 
       <!-- 여기에 페이지 컴포넌트가 바뀌어 출력됨 -->
@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'App',
   components: {
@@ -37,11 +36,12 @@ export default {
 
 <style>
 body {
-      height: 100vh; /* 화면 전체 높이 */
-      margin: 0;
-      display: flex;
-      justify-content: center; /* 가로 가운데 */
-      align-items: center;     /* 세로 가운데 */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+
 
 </style>
