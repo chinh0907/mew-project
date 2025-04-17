@@ -15,7 +15,7 @@ const routes = [
       },
     { path: '/about', component: AboutView },
     { path: '/mew/login', component: LoginPage},
-    { path: '/mew/Register', component: RegisterPage}
+    { path: '/mew/register', component: RegisterPage}
 ]
 
 const router = createRouter({
