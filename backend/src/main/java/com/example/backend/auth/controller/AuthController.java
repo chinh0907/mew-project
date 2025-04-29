@@ -1,6 +1,6 @@
 package com.example.backend.auth.controller;
 
-import com.example.backend.auth.dto.UserDto;
+import com.example.backend.auth.dto.AuthUserDto;
 import com.example.backend.config.JwtUtil;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,7 +15,7 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    public String login(@RequestBody UserDto user) {
+    public String login(@RequestBody AuthUserDto user) {
         System.out.println("qwe");
         if ("user".equals(user.getUserId()) && "pass".equals(user.getUserPwd())) {
             return jwtUtil.generateToken(user.getUserId());

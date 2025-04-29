@@ -5,8 +5,8 @@
     </div>
 
     <form>
-      <input type="text" placeholder="이메일" required />
-      <input type="text" placeholder="사용자명" required />
+      <input type="text" placeholder="아이디" required />
+      <input type="text" placeholder="닉네임" required />
       <input type="password" placeholder="비밀번호" required />
       <input type="password" placeholder="비밀번호 확인" required />
       <div class="birth-selects">
@@ -39,7 +39,7 @@
 
 <script>
 export default {
-  name: "RegisterPage",
+  name: "SignupPage",
   data() {
     return {
       selectedYear: '',

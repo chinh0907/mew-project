@@ -1,6 +1,6 @@
 package com.example.backend.auth.dto;
 
-public class UserDto {
+public class AuthUserDto {
 
     private String userId;
     private String userPwd;

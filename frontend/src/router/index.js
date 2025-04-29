@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 //import HomeView from '../components/HomeView.vue'
 import AboutView from '../components/AboutView.vue'
 import LoginPage from '../components/auth/LoginPage.vue'
-import RegisterPage from '../components/auth/RegisterPage.vue'
+import SignupPage from '../components/auth/SignupPage.vue'
 
 const routes = [
     {
@@ -15,7 +15,7 @@ const routes = [
       },
     { path: '/about', component: AboutView },
     { path: '/mew/login', component: LoginPage},
-    { path: '/mew/register', component: RegisterPage}
+    { path: '/mew/signup', component: SignupPage}
 ]
 
 const router = createRouter({
